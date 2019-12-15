@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pineapple</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="swiper.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-md navbar-light sticky-top">
+		
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id=
+		"collapse_target">
+		<a class="navbar-brand"><img src="images/logo-y.png" width="30%"></a>
+		<ul class="navbar-nav  ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="collapse_target" href="#">
+					Product
+					<span class="caret"></span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="collapse_target">
+				<ul>
+					<a class="dropdown-item" href="#phone">Pine Apple Phone</a>
+					<a class="dropdown-item" href="#tab">Pine Apple Tablet </a>
+					<a class="dropdown-item" href="#watch">Pine Apple Watch</a>
+					<a class="dropdown-item" href="#notebook">Pine Apple Notebook </a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">Contact Us</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<!-- Video -->
+<div class="video text-center">
+	<video src="video/video.mp4" controls autoplay  poster="/images/video.png" width="600px"></video>
+</div>
+
+<div class="new jumbotron text-center">
+	<h1>See Our Newest Product!</h1>
+	<button type="button" class="btn btn"><a href="#baru">Click here</a></button>
+</div>
+
+<!-- Swiper -->
+  <div class="swiper-container" id="baru">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(images/note.png)"><h3>Pine Apple Phone Note 10</h3></div>
+      <div class="swiper-slide" style="background-image:url(images/tab2.png)"><h3>Pine Apple Tab 2</h3></div>
+      <div class="swiper-slide" style="background-image:url(images/watch1.png)"><h3>Pine Apple Watch Pro</h3></div>
+      <div class="swiper-slide" style="background-image:url(images/notebook2.png)"><h3>Pine Apple Ultra Notebook</h3></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+<!-- Start Image Slider -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+	<ul class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner" role="listbox">
+		<!--Slide 1-->
+		<div class="carousel-item active" style="background-image: url(images/ads-1.png); ">
+			<div class="carousel-caption">
+				<img src="images/logo.png"  width="400px" alt="">
+			</div>
+		</div>
+		<!--Slide 2-->
+		<div class="carousel-item" style="background-image: url(images/ads-2.png);">
+		</div>
+		<!--Slide 3-->
+		<div class="carousel-item" style="background-image: url(images/ads-3.png);">
+		</div>	
+	</div><!--End of Carousel Inner-->
+	<!--Prev & Next Buttons-->
+	<a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	</a>
+	<a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	</a>
+</div>
+<!--End of Image Slider -->
+<div class="jumbotron text-center">
+	<h3>Products</h3>
+</div>
+
+<div class="container">
+	<div class="row" id="phone">
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/a9.png" class="card-img-top">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple A9</h5>
+					<p class="card-text">With 12 MP high resolution camera, You may bring your picture alive.</p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/note10.png" class="card-img-top">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple Note 10</h5>
+					<p class="card-text">Our newest product. Write your note and create animation with this stylus.</p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/a70.png" class="card-img-top">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple A70</h5>
+					<p class="card-text">Small but not least, this phone might be a great companion for you who always go outside. </p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="row" id="tab">
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/tab1.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple Tab 1</h5>
+					<p class="card-text">With higher screen quality and fast acceleration, it's great for you who loves gaming.</p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/tab2.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple Tab 2</h5>
+					<p class="card-text">It's a great companion for office workers because it's convenient to bring anywhere. </p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/tab3.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple Tab 3.1</h5>
+					<p class="card-text">We've add more feature for you such as high multi tasking and faster charging</p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row" id="watch">
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/watch2.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple Watch</h5>
+					<p class="card-text">Lazy to bring your phone? Use Pine Apple Watch! It has many functional feature as your phone</p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/watch1.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple Watch Pro</h5>
+					<p class="card-text">More elegant design, makes you look more fashionable. It has an ability to check your heartbeat. </p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/watch3.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple Watch 3.1</h5>
+					<p class="card-text">Simple but useful, this is how we describe the new version of Pine Apple Watch 3.1 .</p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row" id="notebook">
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/notebook1.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple Notebook G</h5>
+					<p class="card-text">With it's highest resolution screen and fast acceleration, it's the best choice for gamers.</p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/notebook2.png..." class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple Ultra Notebook </h5>
+					<p class="card-text">With the newest technology, we create a high quality notebook for graphic designer.</p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+				<img src="images/notebook3.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Pine Apple Notebook X</h5>
+					<p class="card-text">It's a best solution for office workers. With it's handy feature, you may work easily.</p>
+			    	<a href="#" class="btn btn-primary">Buy Now!</a>
+			 	 </div>
+			</div>
+		</div>
+
+	</div>
+
+
+</div>
+
+
+<footer class="text-center" id="contact">
+	<p>&copy; Pine Apple since 2016</p>
+	<ul class="social">
+		<li><a href="www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
+		<li><a href="www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+		<li><a href="www.twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+		<li><a href="www.youtube.com"><i class="fab fa-youtube-square fa-2x"></i></a></li>
+	</ul>
+</footer>
+
+<!-- SCRIPT -->
+<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
+<script type="text/javascript" src="swiper.min.js"></script>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'cube',
+      grabCursor: true,
+      loop: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll',function(){
+			if($(window).scrollTop()){
+				$('nav').addClass('yellow');
+			}
+			else
+			{
+				$('nav').removeClass('yellow');
+			}
+		})
+	</script>
+
+</body>
+</html>

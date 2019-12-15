@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff!important;
+}
+h1,h3,h5,p,span,a {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+	width: 100%;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.collapse img {
+	transition: 0.5s;
+}
+.navbar-nav a {
+	color: #ffe800!important;
+}
+nav .nav-link {
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+nav.yellow {
+	background: rgba(0,0,0,0.8);
+}
+
+nav .dropdown-menu ul {
+	padding: 5px;
+}
+.nav-item {
+	margin-right:20px;
+	transition: .5s;
+}
+.dropdown-menu a {
+	color: #000 !important;
+}
+.navbar-nav a.active,
+.navbar-nav a:hover {
+	color: #16b800!important;
+	background: rgba(255,255,255);
+	border-radius: 5px;
+}
+.video {
+	background-color: #000;
+	border: none;
+	padding: 30px 0px;
+}
+
+.jumbotron {
+	background-color: #000!important;
+}
+.jumbotron button{
+	background-color: #fff;
+	transition: ease 1s;
+}
+.jumbotron h1, .jumbotron h3 {
+	color: #ffe800;
+}
+.jumbotron button a {
+	color: #000; 
+}
+.jumbotron button:hover {
+	background-color: #16b800;
+}
+.jumbotron button a:hover {
+	color: #fff!important;
+	text-decoration: none!important;
+}
+.new {
+	padding-top: 1.5rem!important;
+	padding-bottom: 1rem!important;
+}
+.swiper-container {
+	margin: 3%;
+	width: 500px; 
+	height: 500px;
+	left: 0%;
+	top: 50%;
+}
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+}
+.swiper-slide h3 {
+	color: #ffe800;
+}
+
+.carousel-item {
+	height: 100vh;
+	background-size: cover;
+  	background-position: 50% 50%;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 38%;
+	width: 100%;
+	text-align: left!important;
+	left: 12%!important;
+}
+.carousel-caption img  {
+	position: absolute;
+	text-align: left;
+}
+
+.carousel-caption h1 {
+	color: #ffe800;
+	font-size: 3.8rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem #ff7800;
+	padding-bottom: 1rem;
+}
+.carousel-caption p {
+	color: #ffe800;
+	font-size: 1.5rem;
+	text-shadow: .1rem .1rem .3rem #ff7800;
+	padding-bottom: 1.6rem;
+}
+.container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.row{
+	padding: 25px 50px;
+}
+.card .btn-primary {
+	background-color: #ff7800;
+	border: 1px solid #ff7800;
+	transition: .5s ease;
+}
+.card .btn-primary:hover {
+	background-color: #ff5100;
+	border: 1px solid #ff5100;
+}
+footer  {
+	background-color: #000;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+footer p {
+	color:#ffe800;
+}
+footer ul {
+	text-align: center;
+	padding:0;
+}
+footer ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 5px;
+}
+footer a {
+	color: #ffe800;
+	transition: .5s ease
+}
+footer a:hover {
+	color: #fff;
+}
